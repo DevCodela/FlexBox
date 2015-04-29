@@ -1,6 +1,7 @@
 ul, li {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 .container {
@@ -154,4 +155,33 @@ ul, li {
 	max-height: 30px;
 	margin: .5em;
 	flex-shrink: 0;
+}
+
+.footer {
+	background-color: #2B2E33;
+	padding: 2em 0;
+}
+
+.footer__row {
+	flex-direction: column;
+}
+
+@media screen and (min-width: 480px) {
+	.footer__row {
+		flex-direction: row;
+	}
+}
+
+.footer__list {
+	flex: 1;
+}
+
+.footer__link {
+	padding: .25em 0;
+}
+
+.footer__link a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
 }
