@@ -17,6 +17,13 @@ ul, li {
 	justify-content: center;
 }
 
+.btn {
+	color: #3484E5;
+	border: 1px solid #3484E5;
+	padding: .5em;
+	border-radius: 2px;
+}
+
 .menu {
 	background-color: #2B2C30;
 	padding: 1em 0;
@@ -119,13 +126,32 @@ ul, li {
 	}
 }
 
-.benefits__link {
-	color: #3484E5;
-	border: 1px solid #3484E5;
-	padding: .5em;
-	border-radius: 2px;
-}
-
 .benefit__title {
 	color: #3484E5;
+}
+
+.info {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 1em 0;
+	margin: 1em 0;
+}
+.info__row {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logos {
+	margin: 2em 0;
+}
+
+.logos__row {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.logo__item {
+	max-height: 30px;
+	margin: .5em;
+	flex-shrink: 0;
 }
